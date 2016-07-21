@@ -29,6 +29,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         subjectTextField.delegate = self
         
         //外部ファイルの出力先ディレクトリを表示する。
+        print("外部ファイルの出力先ディレクトリ")
         print(NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.AllDomainsMask, true).first!)
 
     }
