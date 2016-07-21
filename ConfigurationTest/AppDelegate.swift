@@ -1,9 +1,5 @@
 //
 //  AppDelegate.swift
-//  ConfigurationTest
-//
-//  Created by 齋藤緒 on 2016/07/20.
-//  Copyright © 2016年 TestOrganization. All rights reserved.
 //
 
 import UIKit

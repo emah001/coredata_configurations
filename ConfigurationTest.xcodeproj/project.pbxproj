@@ -13,6 +13,10 @@
 		88EA85AB1D40974A00666D20 /* ConfigurationTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88EA85A91D40974A00666D20 /* ConfigurationTest.xcdatamodeld */; };
 		88EA85AD1D40974A00666D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EA85AC1D40974A00666D20 /* Assets.xcassets */; };
 		88EA85B01D40974A00666D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EA85AE1D40974A00666D20 /* LaunchScreen.storyboard */; };
+		88EA85BB1D40AE2000666D20 /* Teacher+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA85B71D40AE2000666D20 /* Teacher+CoreDataProperties.swift */; };
+		88EA85BC1D40AE2000666D20 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA85B81D40AE2000666D20 /* Teacher.swift */; };
+		88EA85BD1D40AE2000666D20 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA85B91D40AE2000666D20 /* Student+CoreDataProperties.swift */; };
+		88EA85BE1D40AE2000666D20 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA85BA1D40AE2000666D20 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		88EA85AC1D40974A00666D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EA85AF1D40974A00666D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88EA85B11D40974A00666D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EA85B71D40AE2000666D20 /* Teacher+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Teacher+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88EA85B81D40AE2000666D20 /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		88EA85B91D40AE2000666D20 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88EA85BA1D40AE2000666D20 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,10 @@
 		88EA85961D40974A00666D20 = {
 			isa = PBXGroup;
 			children = (
+				88EA85B71D40AE2000666D20 /* Teacher+CoreDataProperties.swift */,
+				88EA85B81D40AE2000666D20 /* Teacher.swift */,
+				88EA85B91D40AE2000666D20 /* Student+CoreDataProperties.swift */,
+				88EA85BA1D40AE2000666D20 /* Student.swift */,
 				88EA85A11D40974A00666D20 /* ConfigurationTest */,
 				88EA85A01D40974A00666D20 /* Products */,
 			);
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EA85BD1D40AE2000666D20 /* Student+CoreDataProperties.swift in Sources */,
+				88EA85BB1D40AE2000666D20 /* Teacher+CoreDataProperties.swift in Sources */,
+				88EA85BC1D40AE2000666D20 /* Teacher.swift in Sources */,
 				88EA85A51D40974A00666D20 /* ViewController.swift in Sources */,
 				88EA85A31D40974A00666D20 /* AppDelegate.swift in Sources */,
+				88EA85BE1D40AE2000666D20 /* Student.swift in Sources */,
 				88EA85AB1D40974A00666D20 /* ConfigurationTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
